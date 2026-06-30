@@ -132,6 +132,22 @@ What happens:
    - `conversion_vs_residence_time.png`
    - `conversion_vs_inlet_concentration.png`
 
+## Example Output
+
+Generated plots from a base-case run (saved in `/plots`):
+
+**Conversion & Temperature vs. Feed Temperature**
+
+![Conversion vs. Feed Temperature](plots/conversion_vs_feed_temperature.png)
+
+**Conversion & Temperature vs. Residence Time**
+
+![Conversion vs. Residence Time](plots/conversion_vs_residence_time.png)
+
+**Conversion & Temperature vs. Inlet Concentration**
+
+![Conversion vs. Inlet Concentration](plots/conversion_vs_inlet_concentration.png)
+
 ## Customizing
 
 Edit the `BASE_CASE` dictionary near the top of the script to model
