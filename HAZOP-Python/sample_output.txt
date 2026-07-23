@@ -1,0 +1,47 @@
+HAZOP Phrase Generator - Sample Output
+========================================
+
+Test 1: Standard parameter - Flow
+----------------------------------------
+
+Deviation phrases for 'Flow':
+  - No Flow
+  - More Flow
+  - Less Flow
+  - Reverse Flow
+  - Misdirected Flow
+
+Test 2: Standard parameter - Temperature
+----------------------------------------
+
+Deviation phrases for 'Temperature':
+  - No Temperature
+  - More Temperature
+  - Less Temperature
+
+Test 3: Standard parameter - Pressure
+----------------------------------------
+
+Deviation phrases for 'Pressure':
+  - No Pressure
+  - More Pressure
+  - Less Pressure
+
+Test 4: Custom parameter - Agitator Speed
+----------------------------------------
+Added custom parameter 'Agitator Speed' with guidewords: No, More, Less, Reverse
+
+Deviation phrases for 'Agitator Speed':
+  - No Agitator Speed
+  - More Agitator Speed
+  - Less Agitator Speed
+  - Reverse Agitator Speed
+
+Test 5: Listing all known parameters
+----------------------------------------
+Agitator Speed, Composition, Flow, Level, Mixing, Phase, Pressure, Reaction, Temperature, Time
+
+Test 6: Unrecognized parameter (error handling)
+----------------------------------------
+
+Error: "Parameter 'Viscosity' not found in knowledge base. Available parameters: Agitator Speed, Composition, Flow, Level, Mixing, Phase, Pressure, Reaction, Temperature, Time"
